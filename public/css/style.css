@@ -1,0 +1,209 @@
+/* RAHELIA H */
+
+/* CREATE DATA */
+/* Define style for custom button */
+.create-page .btn-custom {
+    border-radius: 20px; /* Adjust the border radius to make the button more rounded */
+    background: linear-gradient(to right, #7b98ce, #512bac); /* Gradient background */
+    border: none; /* Remove border */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    transition: background 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for custom button */
+.create-page .btn-custom:hover {
+    background: linear-gradient(to right, #453191, #759ed3); /* Adjust gradient color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+/* DETAIL DATA */
+/* Define style for custom button */
+.btn-detail {
+    border-radius: 20px; /* Adjust the border radius to make the button more rounded */
+    background: linear-gradient(to right, #36be5f, #277e4b); /* Gradient background */
+    border: none; /* Remove border */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    transition: background 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for custom button */
+.btn-detail:hover {
+    background: linear-gradient(to right, #348b42, #4dd37a); /* Adjust gradient color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+/* EDIT DATA */
+/* Define style for custom button */
+.btn-edit {
+    border-radius: 20px; /* Adjust the border radius to make the button more rounded */
+    background: linear-gradient(to right, #f7e226, #ce9032); /* Gradient background */
+    border: none; /* Remove border */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    transition: background 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for custom button */
+.btn-edit:hover {
+    background: linear-gradient(to right, #ce9032, #f7e226); /* Adjust gradient color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+/* HAPUS DATA */
+/* Define style for custom button */
+.btn-hapus {
+    border-radius: 20px; /* Adjust the border radius to make the button more rounded */
+    background: linear-gradient(to right, #d67575, #8d1212); /* Gradient background */
+    border: none; /* Remove border */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    transition: background 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for custom button */
+.btn-hapus:hover {
+    background: linear-gradient(to right, #8d1212, #d67575); /* Adjust gradient color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+/* ADD DATA */
+/* Define style for custom button */
+.btn-add {
+    border-radius: 20px; /* Adjust the border radius to make the button more rounded */
+    background: linear-gradient(to right, #9479d1, #2d128d); /* Gradient background */
+    border: none; /* Remove border */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    transition: background 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for custom button */
+.btn-add:hover {
+    background: linear-gradient(to right, #2d128d, #9479d1); /* Adjust gradient color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+
+/* ABOUT : BUTTTON GRADIEN DI ABOUT */
+.about-page .rounded-gradient {
+    border-radius: 20px; /* Ubah angka sesuai dengan keinginan Anda */
+    background: linear-gradient(to right, #69c4ca, #6062d4); /* Ubah warna gradient sesuai keinginan Anda */
+    border: none; /* Menghapus border bawaan */
+    color: #fff; /* Warna teks */
+}
+
+/* ABOUT : BUTTON GRADIEN DI ABOUT */
+.about-page .rounded-gradient:hover {
+    background: linear-gradient(to right, #6062d4, #9bafbe); /* Ubah warna gradient hover sesuai keinginan Anda */
+    color: #fff; /* Warna teks saat hover */
+}
+
+/* ABOUT : TEKS DI ABOUT */
+.text-justify {
+    text-align: justify;
+}
+
+/* HOME : FOTO DI HOME */
+.img-fluid {
+    max-width: 100%; /* Maksimum lebar gambar adalah 100% dari kontainer */
+    max-height: auto; /* Tinggi gambar disesuaikan secara otomatis untuk menjaga proporsi */
+    display: inline-block; /* Menjadikan gambar sebagai elemen inline-block */
+    vertical-align: middle; /* Mengatur pembenaman vertikal agar gambar berada di tengah teks */
+}
+
+/* ALL : FOOTER LAYOUT */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #444241, #181717); /* Ubah warna gradient sesuai keinginan Anda */
+    color: white;
+    z-index: 999; /* Pastikan footer berada di atas konten lain */
+}
+
+
+/* MAHASISWA : JUDUL DAFTAR MAHASISWA */
+.unique-font {
+    font-weight: normal; /* Mengurangi ketebalan font */
+    font-family: 'Arial Black', sans-serif; /* Ganti 'Arial Black' dengan font unik yang Anda inginkan */
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.home-page .bold-text {
+    font-weight: bold;
+    color: #6768b8; /* Warna abu-abu */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efek cahaya */
+}
+
+/* HOME : TEKS BERJALAN */
+.marquee {
+    font-weight: bold;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* NAVBAR */
+.navbar-nav .nav-link.active {
+    position: relative;
+}
+
+.navbar-nav .nav-link.active::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #fff; /* Sesuaikan dengan warna cahaya yang Anda inginkan */
+    animation: navbarGlow 0.5s ease-in-out;
+}
+
+@keyframes navbarGlow {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+/* CSS untuk mengubah warna ikon menjadi pink */
+#cr-icon {
+    color: rgb(17, 19, 121);
+}
+
+/* HELP CENTER */
+.help-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
